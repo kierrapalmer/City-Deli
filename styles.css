@@ -1,0 +1,222 @@
+/*-----Custom variables--------*/
+:root{
+    --info-color: #0086b3;            /*0,102,153*/
+    --danger-color: #cc1400;
+    --dark-grey: #363636;             /*rgb(54,54,54)*/
+    --purple: #330033;
+}
+
+/*sets the properties that all hero images have*/
+.navImg{
+    min-height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*------------------------
+    Index
+--------------------------*/
+
+/*-----Header-----*/
+
+.indexImg{
+    background-image: url("images/food/elli%200.jpg");
+}
+
+/*-----Sig Dishes-----*/
+.signature{
+    margin: 20px auto;
+}
+.sig{
+    padding: 2px!important;
+}
+.sig img{
+    width: 100%;
+}
+
+.sigDishes{
+    position: relative;
+}
+
+.onHover{
+    opacity: 0;
+    color: white;
+    position: absolute;
+    max-width: 100%;
+    padding: 5%;
+}
+
+.foodTitle{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    border: 2px solid white;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+.foodTitle h2{
+    padding-top: 10%;
+    font-size: 2.5vw;
+    font-family: serif;
+}
+.sig:hover .foodTitle{
+    background-color: rgba(102, 0, 102,.7);
+    opacity: 1;
+}
+.sig:hover .onHover{
+    opacity: 1;
+}
+
+/*-----Dining Options-----*/
+
+.dinOptions{
+    padding: 40px 3%;
+}
+.titDinOptions{
+    font-size: 2vw;
+}
+
+.viewMenu{
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 2vw;
+    margin-left: 30px;
+}
+.viewMenu:hover{
+    text-decoration: none;
+}
+
+
+/*------Quote---------------*/
+.quote{
+    background-image: url(images/food/dangoldEdit.jpg);
+    min-height: 400px;
+    height: auto;
+    background-size: cover;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.quote p{
+    padding-top: 7%;
+}
+
+
+
+
+/*------------------------
+    Menu
+-------------------------*/
+.menu h3{
+    border-bottom: var(--dark-grey) 2px solid;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+    color: var(--purple);
+}
+.menuImg{
+    background-image: url("images/food/sandwich1Crop.jpg");
+}
+.menuItem h4{
+    text-transform: uppercase;
+    color: black;
+}
+.menuItem span{
+    float: right;
+    color: black;
+}
+.menuItem p{
+    font-style: italic;
+    color: darkslategray;
+}
+
+
+
+
+/*------------------------
+    Catering
+-------------------------*/
+.catImg{
+    background-image: url(images/food/chinhLeDuc.jpg)
+}
+.menuMain p{
+    color: var(--dark-grey);
+}
+
+
+/*------------------------
+    Contact
+-------------------------*/
+.contImg{
+    background-image: url(images/rawpixel.jpeg)
+}
+
+
+/*------------------------
+    About
+-------------------------*/
+.aboutImg{
+    background-image: url(images/deli.jpg)
+}
+.aboutMain h2{
+    color: var(--purple);
+}
+.aboutMain p{
+    color: var(--dark-grey);
+    font-size: 1.2em;
+}
+.aboutMain img{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+.aboutHr{
+    width: 20%;
+    height: 10px;
+    border-top: 2px solid var(--purple);
+}
+
+/*------------------------
+    Gallery
+-------------------------*/
+.galImg{
+    background-image: url(images/food/deliBurger.jpg)
+}
+
+.carousel img{
+    width: 100%;
+    max-width: 1150px;
+    min-height: 400px;
+    overflow: hidden;
+}
+#carous{
+    width: 70%;
+    margin: 0 auto;
+}
+.galSketch{
+    width: 75%;
+    margin: 0 auto;
+}
+.galSketch{
+    padding-left: 8%;
+}
+.galQuote{
+    padding: 10px 10% 0
+}
+
+
+/*------------------------
+    Weekly
+-------------------------*/
+.weekImg{
+    background-image: url(images/food/sandwich2Crop.jpg)
+}
+.weekSubTitle{
+    padding: 0 14%;
+}
+
+
+

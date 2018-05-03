@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Deli</title>
+      <link rel="stylesheet" type="text/css" href="custom.css">
+
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">-->
+   
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kalam|Nunito+Sans|Source+Sans+Pro" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+
+</head>
+<body id="top">
+    
+  <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
+    <div class="container navCont">
+        <a href="index.html" class="navbar-brand text-white cityDeli">City Deli</a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#cityNavbar" aria-controls="cityNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="cityNavbar">
+           <ul class="navbar-nav mr-auto left">
+               <li class="nav-item">
+                    <a href="menu.html" class="nav-link text-white ">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catering.html" class="nav-link text-white">Catering</a>
+                </li>
+                 <li>
+                    <a href="weekly.html" class="nav-link text-white">Weekly Specials</a>
+                </li>
+           </ul>
+            <ul class="navbar-nav ml-auto right">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link text-white">Our Story</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="gallery.html" class="nav-link text-white">Gallery</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="contact.html" class="nav-link text-white">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </nav>
+    
+    <div class="contImg navImg">    </div>
+   <section class="bg-info">
+   <div class="container text-white">
+       <div class="row p-4">
+          <div class="col-md-5">
+              <h2>Contact Info </h2>
+              <p class="text-white">450 S. Battlefield Blvd <br />
+              Chesapeake, VA 23322 <br />
+              +1 757 482 5554</p>
+              <h2>Open Hours </h2>
+              <p class="text-white">Mon - Fri: 6:30 am - 3 pm <br />
+              Sat &amp; Sun: 6:30 am - 2 pm</p>
+              <h2>Get Social </h2>
+              <p><a href="https://www.facebook.com/CityDeliVA/"><img src="images/facebook.png" alt="" width="60px" class="mr-1"></a>
+              <a href="https://www.tripadvisor.com/Restaurant_Review-g57597-d3364506-Reviews-CITY_DELI-Chesapeake_Virginia.html"><img src="images/tripadvisor.gif" alt="" class="mr-1"></a>
+              <a href="https://www.yelp.com/biz/city-deli-chesapeake"> <img src="images/yelp.svg" alt="" width="70px"></a></p>
+          </div>
+           <div class="col-md-7">
+           <h2>   Message City Deli today</h2>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Name</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Phone</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="123-456-7890">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message here..."></textarea>
+              </div>
+              <button type="button" class="btn bg-purple w-25">Send</button>
+
+           </form>
+          </div>
+
+       </div>
+   </div>
+  </section>
+  <div id="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.075693410134!2d-76.23903595948818!3d36.70706158308062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89babae2ae1a674f%3A0xc68fe5571f73701b!2sCity+Deli!5e0!3m2!1sen!2sus!4v1513193084908" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+
+<!--Footer-->
+<footer>
+    <div class="container">
+        <div class="row pt-4 ">
+            <div class="col-md-4 quickLinks">
+                <h4 class="text-center">Quick Links</h4>
+                <div class="row">
+                    <div class="col-md-8">  
+                     <p><a href="#">Home </a><br />
+                     <a href="#">About</a> <br />
+                     <a href="#">Weekly Specials </a><br />
+                     <a href="#"> Menu  </a></p>  
+                     </div>
+                     
+                     <div class="col-md-4">
+                     <p><a href="#">Catering</a><br />
+                     <a href="#">Gallery</a><br />
+                     <a href="#">Contact</a></p>
+                     </div>
+                 </div>
+            </div> 
+            
+            <div class="col-md-4 openHours text-center">
+                <h4>Hours</h4>        
+                    <p>Monday-Friday <br />
+                    6:30am - 3pm <br />
+                    Saturday &amp; Sunday<br />
+                    6:30am - 2pm  </p>
+            </div> 
+            
+            <div class="col-md-4 contact text-center">
+                <h4>Contact</h4>        
+                    <p>450 S Battlefield Blvd <br />
+                    Chesapeake, VA 23322 <br />
+                    T: 757-482-5554 <br />
+                    F: 757-482-5806 </p>
+            </div>
+        </div>  
+    </div>
+    <hr class="horR">
+      <div class="container copy">
+        <div class="row">
+           <div class="col-md-6 m-auto">
+                <p>&copy; City Deli</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-right"><img src="images/boarHead.jpg" width="15%" class="pr-2" alt="">City Deli uses 100% Boar's Head Branch Meat</p>
+            </div>
+        </div>
+    </div>  
+</footer>
+</body>
+</html>

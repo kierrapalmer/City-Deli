@@ -1,0 +1,115 @@
+/*-----Custom variables--------*/
+$info: #0086b3;
+$dark: #363636;
+$purple: #330033;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+
+/*-----Custom utilities--------*/
+.bg-dark{
+    background-color: $dark;
+    color:white;
+}
+.bg-purple{
+    background-color: $purple;
+    color: white;
+}
+.text-purple{
+    color: $purple;
+}
+
+
+/*-----------------------
+Used throughtout pages
+-----------------------*/
+h2{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: .5px;
+    font-size: 1.1em;
+}
+a, a:hover{
+    color: var(--purple);
+}
+
+/*sets hr into two lines */
+.horRow{
+    width: 80%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    height: 10px;
+    margin: 20px auto;
+
+}
+
+/*Navbar Customization*/
+.navImg{
+    min-height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: absolute;
+}
+
+.navCont{
+    font-family: sans-serif
+}
+.navCont .left{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.navCont .right{
+    font-size: 1.1em;
+}
+
+.navCont .left a:hover{
+    font-weight: bolder;
+}
+.navCont .right a:hover{
+    font-weight: bold;
+}
+.cityDeli{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    border-bottom: solid white 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.cityDeli:hover{
+    border-bottom: solid white 3px;
+}
+
+/*Jumbotron customization*/
+.jumbotron{
+    margin-bottom: 0;
+    padding: 5% 15%;
+    color: white;
+    border-radius: 0;
+}
+
+
+/*footer elements used on every page*/
+footer{
+    margin-top: 0;
+    background-color: $dark;
+    color: white;
+}
+.quickLinks li{
+    list-style-type: none;
+    text-align: left;
+}
+.quickLinks a{
+    color: white;
+}
+.horR{
+    background-color: white;
+    width: 90%;
+}
